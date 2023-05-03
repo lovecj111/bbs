@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/login_register.css') }}">
+{% endblock %}
+
+{% block title %}登录{% endblock %}
+
+{% block main %}
+    <h3 class="page-title">操作成功</h3>
+    <div class="form-container">
+        <h2>&nbsp;&nbsp;&nbsp;玩家数据修改成功</h2>
+        <h2>重新登录游戏拉取数据</h2><br>
+    </div>
+{% endblock %}
